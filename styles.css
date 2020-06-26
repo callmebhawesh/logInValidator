@@ -1,0 +1,80 @@
+*, *, ::before, ::after{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+#container{
+        margin: auto;
+        background-color: white;
+        height: 400px;
+        width : 700px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 15px 0px;
+        position: relative;
+    }
+#container:hover{
+background-color: whitesmoke;
+color: lightcoral;
+}
+#header{
+    margin-left: 27%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    padding: 1%;
+    background-color: lightcoral;
+    height: 60px;
+    width: 48%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px lightcoral;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    cursor: pointer;
+}
+#header:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+h1 {
+    color: whitesmoke;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h1:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
+#credential{
+    margin-left: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px lightcoral;
+    width: 52%;
+    height: fit-content;
+}
+input{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightcoral;
+    border-width: 2px;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 10px;
+    margin: 10px 87px;
+}
+::placeholder{
+    text-align: center;
+    color: lightcoral;
+}
+.btn{
+    border: 2px solid lightcoral;
+    background-color: lightcoral;
+    margin: 5%;
+    padding: 7px 17px;
+    margin-left: 185px;
+    color: whitesmoke;
+    font-weight: bolder;
+    box-sizing: border-box;
+    font-size: 20px;
+    cursor: pointer;
+}
